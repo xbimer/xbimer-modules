@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Src">
+      <UniqueIdentifier>{de7d7a13-a071-41e4-8f04-7d1691f7ec83}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx</Extensions>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{b32da348-770f-41d8-85c9-903e1cc415c5}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx</Extensions>
+    </Filter>
+    <Filter Include="Libraries">
+      <UniqueIdentifier>{42902bf0-12fb-4ecb-a6fa-d9d2cf0ceeb9}</UniqueIdentifier>
+      <Extensions>lib</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\dllmain.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stdafx.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GSRoot.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\stdafx.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\targetver.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup Condition="'$(Configuration)|$(Platform)'=='ac22|x64'">
+    <Library Include="..\python37\libs\python37.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="..\ac22\Brep\Win\BrepImp.LIB">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="..\ac22\BrepOperations\Win\BrepOperationsImp.LIB">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="..\ac22\GSRoot\Win\GSRootImp.LIB">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="..\ac22\DGGraphix\Win\DGGraphixImp.LIB">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="..\ac22\DGLib\Win\DGImp.LIB">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="..\ac22\Geometry\Win\GeometryImp.LIB">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="..\ac22\Graphix\Win\GraphixImp.LIB">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="..\ac22\GSATLib\Win\GSAT2DDataImp.LIB">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="..\ac22\GSModeler\Win\GSModelerImp.LIB">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="..\ac22\GSModeler2D\Win\GSModeler2DImp.LIB">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="..\ac22\GSMSections\Win\GSMSectionsImp.LIB">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="..\ac22\GSUtils\Win\GSUtilsImp.LIB">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="..\ac22\GX\Win\GXImp.LIB">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="..\ac22\GXImage\Win\GXImageImp.LIB">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="..\ac22\GXImageBase\Win\GXImageBaseImp.LIB">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="..\ac22\GXMedia\Win\GXMediaImp.LIB">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="..\ac22\InputOutput\Win\InputOutputImp.LIB">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="..\ac22\Markup\Win\MarkupImp.LIB">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="..\ac22\Model3D\Win\Model3DImp.LIB">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="..\ac22\Pattern\Win\PatternImp.LIB">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="..\ac22\Phasing\Win\PhasingImp.LIB">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="..\ac22\PropertyOperations\Win\PropertyOperationsImp.LIB">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="..\ac22\QuantityTakeoff\Win\QuantityTakeoffImp.LIB">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="..\ac22\SMLibBrepOperations\Win\SMLibBrepOperationsImp.LIB">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="..\ac22\TextEngine\Win\TextEngineImp.LIB">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="..\ac22\UCLib\Win\UCImp.LIB">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="..\ac22\UDLib\Win\UDImp.LIB">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="..\ac22\VBAttrDialogs\Win\VBAttrDialogsImp.LIB">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="..\ac22\VBAttributeList\Win\VBAttributeListImp.LIB">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="..\ac22\VBAttributes\Win\VBAttributesImp.LIB">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="..\ac22\VBAttrOperations\Win\VBAttrOperationsImp.LIB">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="..\ac22\VBElemDialogs\Win\VBElemDialogsImp.LIB">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="..\ac22\VBElemOperations\Win\VBElemOperationsImp.LIB">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="..\ac22\VBUtils\Win\VBUtilsImp.LIB">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="..\ac22\VectorImage\Win\VectorImageImp.LIB">
+      <Filter>Libraries</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup Condition="'$(Configuration)|$(Platform)'=='ac23|x64'">
+    <Library Include="..\python37\libs\python37.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="..\ac23\AlgMath\Win\AlgMathImp.LIB">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="..\ac23\Brep\Win\BrepImp.LIB">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="..\ac23\BrepOperations\Win\BrepOperationsImp.LIB">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="..\ac23\BuiltInLibrary\Win\BuiltInLibraryImp.LIB">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="..\ac23\GSRoot\Win\GSRootImp.LIB">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="..\ac23\DGGraphix\Win\DGGraphixImp.LIB">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="..\ac23\DGLib\Win\DGImp.LIB">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="..\ac23\Geometry\Win\GeometryImp.LIB">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="..\ac23\Graphix\Win\GraphixImp.LIB">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="..\ac23\GSATLib\Win\GSAT2DDataImp.LIB">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="..\ac23\GSModeler\Win\GSModelerImp.LIB">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="..\ac23\GSModeler2D\Win\GSModeler2DImp.LIB">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="..\ac23\GSMSections\Win\GSMSectionsImp.LIB">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="..\ac23\GSUtils\Win\GSUtilsImp.LIB">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="..\ac23\GX\Win\GXImp.LIB">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="..\ac23\GXImage\Win\GXImageImp.LIB">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="..\ac23\GXImageBase\Win\GXImageBaseImp.LIB">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="..\ac23\GXMedia\Win\GXMediaImp.LIB">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="..\ac23\InputOutput\Win\InputOutputImp.LIB">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="..\ac23\Markup\Win\MarkupImp.LIB">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="..\ac23\Model3D\Win\Model3DImp.LIB">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="..\ac23\Pattern\Win\PatternImp.LIB">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="..\ac23\Phasing\Win\PhasingImp.LIB">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="..\ac23\PropertyOperations\Win\PropertyOperationsImp.LIB">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="..\ac23\QuantityTakeoff\Win\QuantityTakeoffImp.LIB">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="..\ac23\SMLibBrepOperations\Win\SMLibBrepOperationsImp.LIB">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="..\ac23\TextEngine\Win\TextEngineImp.LIB">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="..\ac23\UCLib\Win\UCImp.LIB">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="..\ac23\UDLib\Win\UDImp.LIB">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="..\ac23\VBAttrDialogs\Win\VBAttrDialogsImp.LIB">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="..\ac23\VBAttributeList\Win\VBAttributeListImp.LIB">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="..\ac23\VBAttributes\Win\VBAttributesImp.LIB">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="..\ac23\VBAttrOperations\Win\VBAttrOperationsImp.LIB">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="..\ac23\VBElemDialogs\Win\VBElemDialogsImp.LIB">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="..\ac23\VBElemOperations\Win\VBElemOperationsImp.LIB">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="..\ac23\VBUtils\Win\VBUtilsImp.LIB">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="..\ac23\VectorImage\Win\VectorImageImp.LIB">
+      <Filter>Libraries</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
